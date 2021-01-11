@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #fafafa;
+}
+
+.app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__headerImage {
+  object-fit: contain;
+  height: 50px;
+}
+
+.app__signup {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__loginContainer {
+  object-fit: contain;
+  height: 50px;
+}
+
+.app__button {
+  justify-content: space-evenly;
+  height: 50px;
+  font-size: xx-large;
+  font-weight: 1000;
+}
+
+.app__posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app__postright {
+  margin-left: 30px;
+}
+
+.app__needlogin {
+  position: sticky;
+  border-top: 1px solid lightgray;
+}
+
+.app__needlogin>h3 {
+  padding-left: 700px;
+}
